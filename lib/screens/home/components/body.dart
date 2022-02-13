@@ -64,7 +64,7 @@ class _BodyState extends State<Body> {
               itemBuilder: (context, index) =>
                   Padding(
                     key: Key(acProducts[index].id.toString()),
-                    padding: EdgeInsets.symmetric(vertical: 10),
+                    padding: const EdgeInsets.symmetric(vertical: 10),
                     child: Dismissible(
                       key: Key(acProducts[index].id.toString()),
                       direction: DismissDirection.endToStart,
@@ -74,9 +74,9 @@ class _BodyState extends State<Body> {
                         });
                       },
                       background: Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
                         decoration: BoxDecoration(
-                          color: Color(0xFFFFE6E6),
+                          color: const Color(0xFFFFE6E6),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Row(
@@ -96,7 +96,7 @@ class _BodyState extends State<Body> {
               itemBuilder: (context, index) =>
                   Padding(
                     key: Key(laptopProducts[index].id.toString()),
-                    padding: EdgeInsets.symmetric(vertical: 10),
+                    padding: const EdgeInsets.symmetric(vertical: 10),
                     child: Dismissible(
                       key: Key(laptopProducts[index].id.toString()),
                       direction: DismissDirection.endToStart,
@@ -106,14 +106,14 @@ class _BodyState extends State<Body> {
                         });
                       },
                       background: Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
                         decoration: BoxDecoration(
-                          color: Color(0xFFFFE6E6),
+                          color: const Color(0xFFFFE6E6),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Row(
                           children: [
-                            Spacer(),
+                            const Spacer(),
                             SvgPicture.asset("assets/icons/Trash.svg"),
                           ],
                         ),
@@ -128,7 +128,7 @@ class _BodyState extends State<Body> {
               itemBuilder: (context, index) =>
                   Padding(
                     key: Key(tvProducts[index].id.toString()),
-                    padding: EdgeInsets.symmetric(vertical: 10),
+                    padding: const EdgeInsets.symmetric(vertical: 10),
                     child: Dismissible(
                       key: Key(tvProducts[index].id.toString()),
                       direction: DismissDirection.endToStart,
@@ -138,14 +138,14 @@ class _BodyState extends State<Body> {
                         });
                       },
                       background: Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
                         decoration: BoxDecoration(
-                          color: Color(0xFFFFE6E6),
+                          color: const Color(0xFFFFE6E6),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Row(
                           children: [
-                            Spacer(),
+                            const Spacer(),
                             SvgPicture.asset("assets/icons/Trash.svg"),
                           ],
                         ),
@@ -160,7 +160,7 @@ class _BodyState extends State<Body> {
               itemBuilder: (context, index) =>
                   Padding(
                     key: Key(tvProducts[index].id.toString()),
-                    padding: EdgeInsets.symmetric(vertical: 10),
+                    padding: const EdgeInsets.symmetric(vertical: 10),
                     child: Dismissible(
                       key: Key(tvProducts[index].id.toString()),
                       direction: DismissDirection.endToStart,
@@ -170,9 +170,9 @@ class _BodyState extends State<Body> {
                         });
                       },
                       background: Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
                         decoration: BoxDecoration(
-                          color: Color(0xFFFFE6E6),
+                          color: const Color(0xFFFFE6E6),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Row(

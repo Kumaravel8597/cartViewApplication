@@ -40,7 +40,7 @@ class CartCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
-                    width: getProportionateScreenWidth(150),
+                    width: MediaQuery.of(context).size.width/3,
                     child: Text(product.title,
                       style: const TextStyle(color: Colors.black, fontSize: 16,overflow: TextOverflow.ellipsis),
                       maxLines: 3,
@@ -48,7 +48,7 @@ class CartCard extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
                   SizedBox(
-                    width: getProportionateScreenWidth(170),
+                    width:  MediaQuery.of(context).size.width/3,
                     child: Text(
                       "Model : ${product.model}",
                       style: const TextStyle(color: Colors.blue, fontSize: 15,overflow: TextOverflow.ellipsis),
